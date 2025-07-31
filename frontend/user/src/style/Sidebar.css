@@ -1,0 +1,16 @@
+.hover-item {
+    transition: background-color 0.1s;
+}
+
+.hover-item:hover {
+    background-color: #3399ff; /* Màu nền khi hover */
+}
+
+.hover-item a {
+    color: #6c757d; /* Màu chữ mặc định (text-muted) */
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+.hover-item:hover a {
+    color: white !important; /* Màu chữ khi hover */
+}

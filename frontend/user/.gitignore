@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# môi trường & bảo mật
+.env
+
+# thư mục uploads/media
+uploads/
+
+# log & debug
+*.log
+npm-debug.log*
+
+# hệ thống & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# build
+dist/
+build/

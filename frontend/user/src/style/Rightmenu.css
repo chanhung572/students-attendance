@@ -1,0 +1,123 @@
+.calendar-container {
+    border: none;
+    box-shadow: none;
+}
+
+.calendar-header {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.calendar-wrapper {
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-title {
+    font-size: 24px;
+    color: #343a40; 
+}
+
+.react-calendar {
+    border: none;
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.react-calendar__month-view__days__day {
+    border-radius: 50%; 
+}
+
+.react-calendar__tile {
+    border-radius: 8px; 
+    transition: background-color 0.3s;
+}
+
+.react-calendar__tile:hover {
+    background-color: #e3f2fd; 
+}
+
+.react-calendar__navigation button {
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer; 
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.event-info {
+    text-align: left; 
+    margin-left: 10px; 
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+/* TOTALS */
+.totals {
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-box {
+    /* background-color: #f0f0f0; */
+    background-color: lightblue;
+    width: 148px; 
+    height: 50px; 
+    padding: 5px 10px; 
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.total-box h6, .total-box p {
+    margin: 0; 
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.total-box h6 {
+    margin-right: 5px; 
+    font-size: 13px;
+}
+
+/* */
+.upcoming-contests {
+    background-color: lightblue; 
+    border-radius: 5px; 
+    padding: 15px 0 0 0;
+    margin: 10px 0; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.upcoming-contests h6 {
+    font-size: 20px; 
+    color: #333; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+}
+
+.upcoming-contests h6 svg {
+    margin-right: 8px; 
+}
+
+.upcoming-contests h6:hover svg {
+    animation: ring 0.5s ease forwards;
+}
+
+@keyframes ring {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(-15deg); }
+    75% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+}
